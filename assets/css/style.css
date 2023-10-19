@@ -1,0 +1,393 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* HEADER SECTION START */
+
+.logo_section {
+    padding: 0rem 6rem;
+}
+
+.header a {
+    font-weight: 500;
+    color: #4c4c4c;
+    font-size: 14px;
+}
+
+.header ul li {
+    margin-right: 1.5rem;
+}
+
+
+.head_content h1 {
+    font-size: 30px;
+}
+
+.nav_content {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.DISCOVER_btn {
+    border: 2px solid #000;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+
+.banner_section {
+    position: relative;
+}
+
+.head_content {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+
+.head_content h1 {
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+/* HEADER SECTION END */
+/* SECTION 2 START */
+.container.sectionTwo {
+    padding: 0rem 6rem 4rem;
+}
+
+.card_row {
+    position: absolute;
+    top: 87%;
+    background-color: #ffff;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 82%;
+}
+
+.card_body {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.card_text {
+    position: absolute;
+    margin-left: 20px;
+}
+
+.card_text h5 {
+    font-weight: bold;
+
+}
+
+.card_body button {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: none;
+    font-weight: bold;
+    color: #727273;
+}
+
+.products h5, p {
+    margin: 0;
+    padding: 0;
+    margin-top: 5px;
+}
+
+.products {
+
+    justify-content: center;
+}
+
+.strike {
+    text-decoration: line-through;
+    color: #727273;
+}
+
+.load_btn {
+    border: 2px solid #727273;
+    font-weight: bold;
+    font-size: 15px;
+    background: none;
+}
+
+.sectionThreeCard {
+    position: relative;
+}
+
+.sectionThreeCardText {
+    position: absolute;
+    top: 14%;
+    left: 3%;
+    width: 55%;
+}
+
+.sectionThreeCardText h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.sectionThreeCardText p {
+    font-size: 15px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.buy_btn {
+    border: 2px solid #727273;
+    font-weight: bold;
+    font-size: 15px;
+    background: none;
+}
+
+.buy_btn:hover {
+    border: 2px solid #727273;
+    font-weight: bold;
+    font-size: 15px;
+    background: none;
+}
+
+.discount_info {
+    padding: 2rem 6rem 4rem;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.hexColor {
+    color: #bc8246;
+}
+
+.btn_style {
+    background: none;
+    color: #4c4c4c;
+    font-weight: bold;
+    border: 3px solid #000;
+}
+
+.btn_readMore {
+    box-sizing: border-box;
+    border: 2px double #4c4c4c;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.card_text h5 {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #000;
+    line-height: 1.5;
+}
+
+.product_sec {
+    background-image: url('assets/img/image-4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.sectionFour {
+    padding: 6rem 6rem;
+}
+
+.company_logos {
+    padding: 6rem 0rem 0rem;
+}
+
+.sectionFive {
+    padding: 2rem 9rem;
+}
+
+.product_ess {
+    padding: 0.5rem;
+}
+
+.discount_info h6 {
+    color: rgba(0, 0, 0, 0.7);
+    font-weight: 400;
+}
+
+.discount_info p {
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+    color: rgba(0, 0, 0, 0.7);
+    font-weight: 400;
+}
+
+.btn_style {
+    border: 2px solid #000;
+    font-weight: bold;
+    font-size: 15px;
+    background: none;
+    border-radius: 0px;
+}
+
+.btn_style:hover {
+    border: 2px solid #000;
+    font-weight: bold;
+    font-size: 15px;
+    background: none;
+    border-radius: 0px;
+}
+
+/* @MEDIAQUERY SECTION START */
+
+@media only screen and (max-width:1024px) {
+
+    .logo_section {
+        padding: 0rem 1rem;
+    }
+
+    .head_content h1 {
+        font-size: 9px;
+        font-weight: bolder;
+    }
+
+    .crd_discover {
+        margin-bottom: 2rem !important;
+    }
+
+    .card_row {
+        /* display: none; */
+        position: unset;
+        width: 100%;
+        padding: 0.5rem !important;
+        margin-top: 1rem !important;
+    }
+
+    .card_text h5 {
+        font-size: 11px;
+        font-weight: 500;
+        color: #000;
+        line-height: 1.5;
+    }
+
+    .DISCOVER_btn {
+        font-size: 9px;
+        padding: 0.5rem !important;
+        padding-right: 0.5rem !important;
+        padding-left: 0.5rem !important;
+        margin-top: 0.5rem !important;
+    }
+
+    .trend_product {
+        margin-top: 1rem !important;
+    }
+
+    .container.sectionTwo {
+        padding: 2rem 3rem 4rem;
+    }
+
+    .productCard {
+        margin-bottom: 2rem !important;
+    }
+
+    .img-fluid {
+        width: 100% !important;
+    }
+
+    p.py-3 {
+        font-size: 10px;
+        width: 55%;
+        padding: 0rem 0rem !important;
+    }
+
+    .head_content {
+        top: 4%;
+    }
+
+    .horizontal {
+        display: none;
+    }
+
+    .product_sec {
+        margin-bottom: 2rem;
+    }
+
+    h5.hexColor.mb-2 {
+        font-size: 12px;
+    }
+
+    .sectionThreeCardText h3 {
+        font-size: 1rem;
+    }
+
+    .sectionThreeCardText p {
+        font-size: 9px;
+    }
+
+    .img_res {
+        height: 14rem;
+    }
+
+    .buy_btn {
+        margin-top: 1rem !important;
+        padding: 0.5rem !important;
+        font-size: 12px !important;
+    }
+
+    .sectionFour {
+        padding: 1rem 2rem;
+    }
+
+    p.mb-5 {
+        font-size: 12px;
+    }
+
+    hr {
+        display: none;
+    }
+
+    .sectionFive {
+        padding: 2rem 1rem;
+    }
+
+    .discount_info {
+        padding: 2rem 1rem 4rem;
+    }
+
+    .card_ {
+        margin-bottom: 2rem;
+    }
+
+    .footer_img {
+        width: 10rem !important;
+        margin-bottom: 2rem !important;
+    }
+
+    .products h5, p {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width:980px) {}
+
+@media only screen and (max-width:800px) {}
+
+@media only screen and (max-width:640px) {}
+
+@media only screen and (max-width:480px) {}
+
+@media only screen and (max-width:360px) {}
+
+@media only screen and (max-width:320px) {}
+
+/* @MEDIAQUERY SECTION END */
