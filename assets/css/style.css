@@ -146,7 +146,7 @@ body {
 }
 
 .buy_btn {
-    border: 2px solid #727273;
+    border: 2px solid #d2cfcf;
     font-weight: bold;
     font-size: 15px;
     background: none;
@@ -375,6 +375,27 @@ body {
 
     .products h5, p {
         font-size: 12px;
+    }
+
+    .productCard h5 {
+        font-size: 15px;
+    }
+
+    .card-body h5 {
+        font-size: 15px;
+    }
+
+    .card-body h6 {
+        font-size: 10px;
+    }
+
+    .card-body p {
+        font-size: 10px;
+    }
+
+    .card-body button {
+        padding: 5px !important;
+        margin-top: 5px !important;
     }
 }
 
