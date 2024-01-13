@@ -3,6 +3,7 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -11,11 +12,6 @@ body {
 }
 
 /* HEADER SECTION START */
-
-.logo_section {
-    padding: 0rem 6rem;
-}
-
 .header a {
     font-weight: 500;
     color: #4c4c4c;
@@ -24,11 +20,6 @@ body {
 
 .header ul li {
     margin-right: 1.5rem;
-}
-
-
-.head_content h1 {
-    font-size: 30px;
 }
 
 .nav_content {
@@ -41,7 +32,6 @@ body {
     font-weight: bold;
     font-size: 15px;
     cursor: pointer;
-
 }
 
 .banner_section {
@@ -50,7 +40,7 @@ body {
 
 .head_content {
     position: absolute;
-    top: 30%;
+    top: 20%;
     left: 10%;
 }
 
@@ -59,18 +49,13 @@ body {
     font-weight: bolder;
 }
 
-/* HEADER SECTION END */
 /* SECTION 2 START */
 .container.sectionTwo {
     padding: 0rem 6rem 4rem;
 }
 
 .card_row {
-    position: absolute;
-    top: 87%;
     background-color: #ffff;
-    left: 0;
-    right: 0;
     margin: 0 auto;
     width: 82%;
 }
@@ -88,27 +73,19 @@ body {
 
 .card_text h5 {
     font-weight: bold;
-
 }
 
 .card_body button {
     margin: 0;
     padding: 0;
     border: none;
-    background: none;
     font-weight: bold;
     color: #727273;
 }
 
 .products h5, p {
     margin: 0;
-    padding: 0;
     margin-top: 5px;
-}
-
-.products {
-
-    justify-content: center;
 }
 
 .strike {
@@ -190,13 +167,6 @@ body {
     padding-right: 30px;
 }
 
-.card_text h5 {
-    font-size: 1rem;
-    font-weight: 500;
-    color: #000;
-    line-height: 1.5;
-}
-
 .product_sec {
     background-image: url('assets/img/image-4.jpg');
     background-size: cover;
@@ -248,167 +218,106 @@ body {
     border-radius: 0px;
 }
 
-/* @MEDIAQUERY SECTION START */
 
-@media only screen and (max-width:1024px) {
 
-    .logo_section {
-        padding: 0rem 1rem;
-    }
+/* Media query */
 
+
+@media screen and (min-width: 1600px) {}
+
+
+@media screen and (max-width:1500px) {}
+
+@media screen and (max-width:1330px) {}
+
+
+@media screen and (max-width:1180px) {
     .head_content h1 {
-        font-size: 9px;
-        font-weight: bolder;
+        font-size: 40px;
     }
 
-    .crd_discover {
-        margin-bottom: 2rem !important;
-    }
-
-    .card_row {
-        /* display: none; */
-        position: unset;
-        width: 100%;
-        padding: 0.5rem !important;
-        margin-top: 1rem !important;
-    }
-
-    .card_text h5 {
-        font-size: 11px;
-        font-weight: 500;
-        color: #000;
-        line-height: 1.5;
-    }
-
-    .DISCOVER_btn {
-        font-size: 9px;
-        padding: 0.5rem !important;
-        padding-right: 0.5rem !important;
-        padding-left: 0.5rem !important;
-        margin-top: 0.5rem !important;
-    }
-
-    .trend_product {
-        margin-top: 1rem !important;
-    }
-
-    .container.sectionTwo {
-        padding: 2rem 3rem 4rem;
-    }
-
-    .productCard {
-        margin-bottom: 2rem !important;
-    }
-
-    .img-fluid {
-        width: 100% !important;
-    }
-
-    p.py-3 {
-        font-size: 10px;
+    .sectionThreeCardText {
+        position: absolute;
+        top: 5%;
+        left: 3%;
         width: 55%;
-        padding: 0rem 0rem !important;
-    }
-
-    .head_content {
-        top: 4%;
-    }
-
-    .horizontal {
-        display: none;
-    }
-
-    .product_sec {
-        margin-bottom: 2rem;
-    }
-
-    h5.hexColor.mb-2 {
-        font-size: 12px;
     }
 
     .sectionThreeCardText h3 {
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
 
     .sectionThreeCardText p {
         font-size: 9px;
-    }
-
-    .img_res {
-        height: 14rem;
+        font-weight: 400;
+        color: rgba(25, 12, 12, 0.8);
     }
 
     .buy_btn {
-        margin-top: 1rem !important;
-        padding: 0.5rem !important;
-        font-size: 12px !important;
+        margin-top: 10px !important;
+        padding: 8px 30px !important;
     }
 
-    .sectionFour {
-        padding: 1rem 2rem;
+
+
+}
+
+
+@media screen and (max-width:1045px) {
+    .head_content {
+        top: 20%;
+
     }
 
-    p.mb-5 {
-        font-size: 12px;
+    .head_content h1 {
+        font-size: 30px;
     }
 
-    hr {
-        display: none;
-    }
-
-    .sectionFive {
-        padding: 2rem 1rem;
-    }
-
-    .discount_info {
-        padding: 2rem 1rem 4rem;
-    }
-
-    .card_ {
-        margin-bottom: 2rem;
-    }
-
-    .footer_img {
-        width: 10rem !important;
-        margin-bottom: 2rem !important;
-    }
-
-    .products h5, p {
-        font-size: 12px;
-    }
-
-    .productCard h5 {
-        font-size: 15px;
-    }
-
-    .card-body h5 {
-        font-size: 15px;
-    }
-
-    .card-body h6 {
+    .head_content p {
         font-size: 10px;
     }
 
-    .card-body p {
+    .DISCOVER_btn {
+        border: 2px solid #000;
+        margin: 0 !important;
         font-size: 10px;
-    }
-
-    .card-body button {
-        padding: 5px !important;
-        margin-top: 5px !important;
+        cursor: pointer;
+        padding: 0.3rem !important;
     }
 }
 
-@media only screen and (max-width:980px) {}
+@media screen and (max-width:880px) {
+    .head_content {
+        width: 50%;
+    }
 
-@media only screen and (max-width:800px) {}
+    .head_content h1 {
+        font-size: 20px;
+    }
 
-@media only screen and (max-width:640px) {}
+    .head_content {
+        top: 15%;
+    }
+}
 
-@media only screen and (max-width:480px) {}
+@media screen and (max-width:600px) {
+    .head_content h1 {
+        font-size: 10px;
+    }
 
-@media only screen and (max-width:360px) {}
+    .head_content p {
+        font-size: 10px;
+        margin: 0 !important;
+    }
 
-@media only screen and (max-width:320px) {}
+    .head_content {
+        top: 10%;
+    }
 
-/* @MEDIAQUERY SECTION END */
+}
+
+
+
+@media screen and (max-width:800px) {}
+
+@media screen and (max-width:700px) {}
